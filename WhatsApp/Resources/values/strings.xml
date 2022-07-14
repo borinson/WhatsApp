@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="action_settings">Settings</string>
+	<string name="fragment_chats">Chats</string>
+	<string name="fragment_status">Status</string>
+	<string name="fragment_call">Calls</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WhatsApp-RUS</string>
+    <string name="action_settings">Настройки</string>
+	<string name="fragment_chats">Чаты</string>
+	<string name="fragment_status">Статус</string>
+	<string name="fragment_call">Звонки</string>
+</resources>

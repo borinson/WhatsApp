@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+		<!-- Подключения стиля панели действий -->
+		<item name="android:actionBarStyle">@style/ActionBar</item>
+		<!-- Установка цвета строки состояния -->
+		<item name="android:statusBarColor">@color/sa_green</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+	<!-- Цвет панели действий -->
+	<color name="sa_green">#14a804</color>
+	<!-- Цвет вкладок -->
+	<color name="stacked_green">#118504</color>
+	<!-- Базовая тема приложения -->
+
+	<!-- Стиль панели действий -->
+	<style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+		<!-- Установка цвета фона панели действий -->
+		<item name="android:background">@color/sa_green</item>
+		<!-- Установка цвета фона вкладок -->
+		<item name="android:backgroundStacked">@color/stacked_green</item>
+		<!-- Установка цвета разделителей вкладок -->
+		<item name="android:backgroundSplit">@color/sa_green</item>
+	</style>
+
+</resources>
