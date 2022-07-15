@@ -42,7 +42,7 @@ namespace WhatsApp
         {
             var tab = this.ActionBar.NewTab();
 
-            //tab.SetText(title);
+            tab.SetText(title);
 
             SupportFragmentManager
                 .BeginTransaction()
